@@ -8,7 +8,7 @@
     body {
       margin: 0;
       font-family: monospace;
-      background: linear-gradient(to right, #fff1eb, #ace0f9);
+      background-color: #ffe5b4; /* Peach aesthetic background */
       color: #333;
     }
 
@@ -35,7 +35,7 @@
     }
 
     .games button {
-      background-color: #f19066;
+      background-color: #ff6b6b; /* Solid color */
       color: white;
       border: none;
       padding: 15px 25px;
@@ -47,11 +47,35 @@
     }
 
     .games button:hover {
-      background-color: #f78fb3;
+      background-color: #ee5253;
+    }
+
+    .photo-collage {
+      margin-top: 40px;
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .photo-collage h3 {
+      margin-bottom: 15px;
+    }
+
+    .photo-placeholder {
+      height: 200px;
+      background-color: #ddd;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-style: italic;
+      color: #666;
     }
 
     .leaderboard {
-      background-color: #dff9fb;
+      background-color: #ffffff;
       border: 2px solid #7ed6df;
       border-radius: 10px;
       padding: 20px;
@@ -64,7 +88,7 @@
     }
 
     .info-box {
-      background-color: #f8c291;
+      background-color: rgba(255, 255, 255, 0.9);
       border-radius: 10px;
       padding: 20px;
       margin: 20px 0;
@@ -88,11 +112,17 @@
   </header>
 
   <div class="section games">
-    <h2>🎮 Daily Fun Games</h2>
-    <p>New games updated every day to keep the fun rolling! ✨</p>
-    <button onclick="window.open('https://www.coolmathgames.com', '_blank')">Game 1</button>
-    <button onclick="window.open('https://www.pogo.com', '_blank')">Game 2</button>
-    <button onclick="window.open('https://www.funbrain.com', '_blank')">Game 3</button>
+    <h2>🎮 Multiplayer Games</h2>
+    <p>Play together with family or make new friends online! 👥</p>
+    <button onclick="window.open('https://skribbl.io', '_blank')">Play Pictionary</button>
+    <button onclick="window.open('https://garticphone.com', '_blank')">Play Drawing Game</button>
+    <button onclick="window.open('https://playingcards.io/', '_blank')">Play Card Games</button>
+  </div>
+
+  <div class="section photo-collage">
+    <h3>📸 Family Moments Collage</h3>
+    <div class="photo-placeholder">[ Photo Collage Placeholder Box ]</div>
+    <p style="margin-top: 10px;">Share your happy family memories with us! 💖</p>
   </div>
 
   <div class="section leaderboard">
@@ -110,70 +140,70 @@
     <div class="info-box">
       <h2>🤝 What is Bond Bridge?</h2>
       <p>
-        Bond Bridge is a digital space where young and old connect through fun! Whether you're 7 or 70, this platform is made to bring smiles and laughter to family time.
+        Bond Bridge is a digital playground that connects generations through simple, joyful games and activities. A space where laughter has no age limit!
       </p>
     </div>
 
     <div class="info-box">
       <h2>🎯 Our Mission</h2>
       <p>
-        We believe in memories over medals! Bond Bridge aims to build stronger family ties by encouraging play, conversation, and shared joy. 🧡
+        We're here to bridge gaps, not scores. Our mission is to make family bonding effortless, regular, and genuinely fun.
       </p>
     </div>
 
     <div class="info-box">
       <h2>🧩 Why Games?</h2>
       <p>
-        Games are the universal language of fun. They help spark conversations, lighten moods, and break age barriers. Plus, they’re just awesome. 🎮
+        Games break barriers and build connections. They help create memories and bring joy that goes beyond the screen.
       </p>
     </div>
 
     <div class="info-box">
       <h2>📅 Daily Fun</h2>
       <p>
-        Every day brings something new! Our game links update daily to keep things fresh, engaging, and exciting for the whole family. Check back often!
+        Check back every day for new game experiences! We rotate fresh content to keep the vibes exciting and the fun non-stop.
       </p>
     </div>
 
     <div class="info-box">
       <h2>🌈 Non-Competitive Environment</h2>
       <p>
-        No pressure, no points—just pure bonding. Our leaderboard is friendly and based on community engagement, not competition. Everyone wins here! 🏅
+        This isn’t about winning — it’s about smiling. Our leaderboard celebrates participation and joy, not performance.
       </p>
     </div>
 
     <div class="info-box">
       <h2>💬 Talk & Play</h2>
       <p>
-        The games are just the beginning. Take time to chat, share stories, and laugh together. Bond Bridge is about making moments matter.
+        The best part? Playing leads to talking! Use the games as an excuse to chat, share stories, and laugh with each other.
       </p>
     </div>
 
     <div class="info-box">
       <h2>🧠 Brain Boost</h2>
       <p>
-        Many of the games featured also help boost memory, logic, and creativity—great for both kids and seniors. Fun + mental fitness = win-win!
+        Many of our featured games offer mental stimulation for all ages, improving memory, focus, and creativity—without feeling like "learning".
       </p>
     </div>
 
     <div class="info-box">
-      <h2>👨‍💻 Created by Aadi & Saad</h2>
+      <h2>👨‍💻 Made by Aadi & Saad</h2>
       <p>
-        This project is brought to life by Aadi and Saad, two friends who wanted to help families bond better with simple, joyful technology. ✨
+        Created by Aadi & Saad — two friends on a mission to bring families closer through fun and tech. 🙌
       </p>
     </div>
 
     <div class="info-box">
       <h2>💡 Future Plans</h2>
       <p>
-        We’re planning live quizzes, voice chat games, and seasonal family challenges soon. Stay connected for new features and updates!
+        We’re building toward video chats, game rooms, and seasonal family contests. Keep your eyes on Bond Bridge — it’s growing with you!
       </p>
     </div>
 
     <div class="info-box">
       <h2>📢 Share the Joy</h2>
       <p>
-        If Bond Bridge made you smile today, share it with someone you love. Because smiles are better when they’re shared. 😄❤️
+        If Bond Bridge brightened your day, pass it on to someone you care about. More smiles = more magic. 💫
       </p>
     </div>
   </div>
